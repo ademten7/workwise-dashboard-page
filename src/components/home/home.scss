@@ -1,0 +1,11 @@
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.5em;
+    .offer {
+        border: 1px solid rgb(192, 189, 189);
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
