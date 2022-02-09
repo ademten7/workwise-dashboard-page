@@ -29,7 +29,6 @@ const Applications = () => {
       return application.interview === false;
     });
     setApplications(updatedApplications);
-
   };
 
   const deleteApplication = (id) => {
@@ -60,7 +59,7 @@ const Applications = () => {
                   type="button"
                   class="btn btn-primary"
                 >
-                  Interview Hinzufügen
+                  Interview Hinzufüg
                 </button>
                 <button
                   onClick={() => deleteApplication(application.id)}
